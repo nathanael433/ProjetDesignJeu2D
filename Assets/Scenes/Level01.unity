@@ -6411,3 +6411,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67f7381fa571f804883b9e3e357b058f, type: 3}
+--- !u!1001 &6790077354785936077
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6790077353980333454, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790077353980333454, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790077353980333454, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790077353980333454, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790077353980333454, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790077353980333454, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790077353980333454, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790077353980333454, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790077353980333454, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790077353980333454, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790077353980333454, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790077353980333555, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}
+      propertyPath: m_Name
+      value: HealPowerUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8837fc3a2c170e047b9baf737f38b29e, type: 3}

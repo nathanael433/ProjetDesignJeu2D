@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: -4031619653288768660, guid: b883694c833730a4ebff4ee2055238cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -102,7 +102,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 250
+  climbSpeed: 0
   jumpForce: 300
+  isClimbing: 0
   groundCheck: {fileID: 4361897523073120213}
   groundCheckRadius: 0.4
   collisionLayers:
