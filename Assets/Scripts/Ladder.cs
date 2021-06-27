@@ -6,7 +6,7 @@ public class Ladder : MonoBehaviour
     public bool isInRange;
     private PlayerMovement playerMovement;
     public BoxCollider2D topcollider;
-    public Text interactUI;
+    private Text interactUI;
 
     void Awake()
     {
