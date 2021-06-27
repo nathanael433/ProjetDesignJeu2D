@@ -45,7 +45,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5149483102321895512
 Transform:
   m_ObjectHideFlags: 0
@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 5149483102321895515}
+  killSound: {fileID: 8300000, guid: 0705b26cdfb40944ebc136de715906bd, type: 3}
 --- !u!1 &5149483103307901726
 GameObject:
   m_ObjectHideFlags: 0
