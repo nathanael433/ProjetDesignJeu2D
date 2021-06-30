@@ -6,6 +6,7 @@ public class LoadSpecificScene : MonoBehaviour
 {
     public string sceneName;
     private Animator fadeSystem;
+    public AudioClip soundToPlay;
 
     private void Awake()
     {
@@ -17,12 +18,14 @@ public class LoadSpecificScene : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             StartCoroutine(loadNextScene());
+            AudioManager.instance.PlayClipAt(soundToPlay, transform.position);
         }
     }
 
     public IEnumerator loadNextScene()
     {
         LoadAndSaveData.instance.SaveData();
+        yield return new WaitForSeconds(1f);
         fadeSystem.SetTrigger("FadeIn");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(sceneName);

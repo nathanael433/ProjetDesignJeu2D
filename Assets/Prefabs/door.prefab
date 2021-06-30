@@ -124,4 +124,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Level02
-  fadeSystem: {fileID: 0}
+  soundToPlay: {fileID: 8300000, guid: 5f59b4e39e7aa4c4095a9952ffa57768, type: 3}
